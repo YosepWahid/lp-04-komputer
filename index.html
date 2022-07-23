@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ymerch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- container -->
+    <div class="container">
+        <!-- header -->
+        <header class="header">
+            <div class="hero">
+                <h2 class="head-hero">Ycompany Sale</h2>
+                <p class="sub-hero">YC SELL</p>
+            </div>
+            <div class="feature feature-1">
+                <h4 class="price">IDR $10000</h4>
+                <a class="produk" href="#">Coding with Javascript</a>
+            </div>
+            <div class="feature feature-2">
+                <h4 class="price">IDR $15000</h4>
+                <a class="produk" href="#">Coding with PHP</a>
+            </div>
+        </header>
+        <!-- akhir header -->
+
+        <!-- navigasi menu -->
+        <nav class="menu">
+            <!-- menu-toggle -->
+            <div class="menu-toggle">
+                <input type="checkbox" name="klik" id="menu-toggle-klik">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- akhir menu-toggle -->
+
+            <!-- menu-list -->
+            <div class="brand">YCSale</div>
+            <ul class="menu-list .slide">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">gallery</a></li>
+            </ul>
+            <!-- akhir menu-list -->
+        </nav>
+        <!-- akhir navigasi menu -->
+
+        <!-- service -->
+        <section class="services">
+            <div class="service">
+                <div class="icon"><img src="img/icon/online-test.png" alt="komputer"></div>
+                <h3>Responsive</h3>
+                <p>website responsive in mobile and computer</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/icon/network.png" alt="network"></div>
+                <h3>Network</h3>
+                <p>fast network while web open</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/icon/wifi.png" alt="hosting"></div>
+                <h3>Hosting</h3>
+                <p>safe hosting</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/icon/security.png" alt="safety"></div>
+                <h3>Safety</h3>
+                <p>safe from virus and hack</p>
+            </div>
+        </section>
+        <!-- akhir service -->
+
+
+        <!-- gallery -->
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/201x201" alt="">
+            <img src="https://source.unsplash.com/202x202" alt="">
+            <img src="https://source.unsplash.com/203x203" alt="">
+            <img src="https://source.unsplash.com/204x204" alt="">
+            <img src="https://source.unsplash.com/205x205" alt="">
+            <img src="https://source.unsplash.com/206x206" alt="">
+            <img src="https://source.unsplash.com/207x207" alt="">
+            <img src="https://source.unsplash.com/208x208" alt="">
+            <img src="https://source.unsplash.com/209x209" alt="">
+            <img src="https://source.unsplash.com/2010x2010" alt="">
+            <img src="https://source.unsplash.com/2011x2011" alt="">
+            <img src="https://source.unsplash.com/2012x2012" alt="">
+        </section>
+
+        <!-- akhir gallery -->
+
+
+
+    </div>
+    <!-- akhir container -->
+
+    <!-- footer -->
+    <footer>
+        <p>Copyright 2022</p>
+    </footer>
+    <!-- akhir footer -->
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input')
+        const nav = document.querySelector('nav ul')
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide')
+        })
+    </script>
+</body>
+
+</html>
